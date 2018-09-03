@@ -1,0 +1,28 @@
+.wrapper {
+  width: 900px;
+  margin: 0px auto;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.winner, .errors, .turn {
+  font-size: 24px;
+  margin: 5px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 2px solid white;
+  outline: none;
+  background-color:  rgb(214, 214, 214);
+  font-size: 64px;
+}
+
+.box.red {
+  background-color: rgb(255, 130, 130);
+}
+
+.box.green {
+  background-color: rgb(107, 156, 107);
+}
